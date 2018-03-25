@@ -1,5 +1,5 @@
 exports.showCreate = (req,res) => {
-    res.send("showCreate");
+    res.render("./topic/create.html");
 }
 exports.create = (req,res) => {
     res.send("create");
@@ -8,7 +8,7 @@ exports.show = (req,res) => {
     res.send("show");
 }
 exports.showEdit = (req,res) => {
-    res.send("showEdit");
+    res.render("./topic/edit.html");
 }
 exports.edit = (req,res) => {
     res.send("edit");
